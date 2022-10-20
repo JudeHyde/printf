@@ -29,4 +29,10 @@ int _bin(va_list bin)
 		arr[i] = tmp % 2;
 		tmp /= 2;
 	}
+	for (i = count - 1; i >= 0; i--)
+	{
+		_putchar(arr[i] + '0');
+	}
+	free(arr);
+	return (count);
 }

@@ -34,6 +34,7 @@ int _bin(va_list bin)
 	{
 		_putchar(arr[i] + '0');
 	}
+
 	free(arr);
 	return (count);
 }

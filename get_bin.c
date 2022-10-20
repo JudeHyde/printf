@@ -36,6 +36,5 @@ int _bin(va_list bin)
 	}
 
 	free(arr);
-	return (count);
 	return (0);
 }

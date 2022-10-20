@@ -29,3 +29,4 @@ int _bin(va_list bin)
 		arr[i] = tmp % 2;
 		tmp /= 2;
 	}
+}

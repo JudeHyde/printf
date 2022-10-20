@@ -7,6 +7,7 @@
  * @alpha: Char 'A' to 'F' or 'a' to 'f'
  * Return: number of chars printed
  */
+
 int _hex_str(unsigned int n, unsigned int hex, char alpha)
 {
 	unsigned int a = n % hex;
@@ -43,7 +44,7 @@ int _hex_l(va_list hexa)
 /**
  * _hex_u - printing upper case hexa
  * @hexa: argument recieved
- * Return: no. of char printed
+ * Return: number of char printed
  */
 int _hex_u(va_list hexa)
 {

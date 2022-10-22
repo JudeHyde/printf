@@ -16,7 +16,6 @@ typedef struct fmt
 	int (*f)();
 } fmt_t;
 
-int main(void);
 int _printf(const char *format, ...);
 int print_op(const char *format, fmt_t *print_arr, va_list list);
 int ch(va_list character);
